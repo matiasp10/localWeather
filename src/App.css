@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+main {
+  height: 100vh;
+  background-color: black;
+}
+
+img {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  img {
+    height: 600px;
+    width: 100%;
+  }
+}
